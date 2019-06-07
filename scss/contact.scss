@@ -1,0 +1,146 @@
+section.contactwrapp {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  font-size: 0.8rem;
+}
+
+.contactcol {
+  width: 50%;
+}
+
+.map {
+  div {
+    margin-bottom: 20px;
+  }
+}
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 400px;
+  width: 400px;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 400px;
+  width: 400px;
+}
+
+.formcol {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+
+  div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+div.form {
+  width: 100%;
+  max-width: 450px;
+  border: 1px solid $light-blue;
+}
+
+.input-field {
+  position: relative;
+}
+
+.input-field i {
+  color: $light-blue;
+  margin: 0 1rem;
+  font-size: 25px;
+  width: 25px;
+  top: -15px;
+  position: relative;
+}
+
+.input-field i.fa-pen {
+  top: -80px;
+  position: relative;
+}
+
+.input-field:active {
+  color: $light-blue;
+}
+
+input,
+textarea {
+  margin-left: 3rem;
+  background-color: transparent;
+  border: none;
+  border-bottom: 0.5px solid $light-blue;
+  height: 3rem;
+  margin: 0 0 15px;
+  transition: all 0.3s;
+  width: 80%;
+  padding-top: 20px;
+  font-size: 16px;
+}
+
+textarea {
+  padding: 1.6rem 0;
+}
+
+label {
+  color: $light-blue;
+  position: absolute;
+  top: 0.8rem;
+  left: 1.3rem;
+  cursor: text;
+  margin-left: 3rem;
+}
+
+.btn-sent {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.btn-sent .btn {
+  text-decoration: none;
+  color: #fff;
+  background-color: $light-blue;
+  -webkit-transition: 0.2s ease-out;
+  transition: 0.2s ease-out;
+  cursor: pointer;
+  border: none;
+  padding: 10px 25px;
+  font-size: 0.8rem;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.btn-block .btn i {
+  float: right;
+  padding-left: 10px;
+  font-size: 16px;
+  padding-top: 3px;
+}
+@media (max-width: 600px) {
+  section.contactwrapp {
+    flex-direction: column;
+  }
+
+  div.form {
+    width: 90%;
+    padding: 20px 10px;
+  }
+
+  input,
+  textarea {
+    width: 73%;
+  }
+
+  .input-field i {
+    margin: 0 1rem 0 0.6rem;
+  }
+
+  label {
+    left: 0.7rem;
+  }
+}

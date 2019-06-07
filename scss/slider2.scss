@@ -1,0 +1,136 @@
+section#slider2 {
+  margin-top: 10px;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #E6F1FC;
+}
+
+section.reverse {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #E6F1FC;
+}
+
+section#slider2 .slider-wrapper {
+  width: 80%;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+section#slider2 .scroll-wrapper {
+  overflow-x: hidden;
+}
+
+section#slider2 ul {
+  padding: 0;
+  width: max-content;
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 0;
+}
+
+section#slider2 li.slider {
+  display: inline-block;
+  position: relative;
+  background-color: black;
+
+  &:hover {
+    filter: brightness(150%);
+  }
+}
+
+section#slider2 li.slider img {
+  display: block;
+  height: 200px;
+  width: 200px;
+}
+
+section#slider2 span.slider-title {
+  display: block;
+  position: absolute;
+  color: #fff;
+  left: 2vw;
+  font-weight: 100;
+  bottom: 1.5vw;
+  font-size: 1.3vw;
+}
+
+section#slider2 .more-slider {
+  width: 20%;
+  padding-left: 10px;
+}
+
+section#slider2 .more-slider h4 {
+  color: $light-blue;
+  font-weight: 300;
+  font-size: 2rem;
+  padding: 35px 0 25px;
+  margin-bottom: 0;
+}
+
+section#slider2 .slide-controls {
+  color: $light-blue;
+  font-weight: 300;
+}
+
+section#slider2 .slide-controls span.slider-previous {
+  margin-right: 55px;
+}
+
+section#slider2 .slide-controls i {
+  font-size: 26px;
+}
+
+section#slider2 .more-slider a.button {
+  border: 1px solid #5896b0;
+  max-width: 200px;
+  color: #5896b0;
+  margin-top: 6vw;
+}
+
+section#slider2 .more-slider a.button:hover {
+  color: #fff;
+}
+
+section#slider2 .more-slider a.button:before {
+  background: #5896b0;
+}
+@media only screen and (max-width: 600px) {
+  section#slider2 {
+    height: auto;
+    flex-direction: column;
+  }
+
+  section#slider2 .more-slider {
+    width: 100%;
+    padding: 0;
+
+    .content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      h4 {
+        padding: 0.5rem;
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+    section#slider2 span.slider-title {
+      font-size: 3.3vw;
+    }
+
+    section#slider2 .slider-wrapper {
+      width: 80%;
+       }
+  }

@@ -1,0 +1,36 @@
+
+
+.main {
+
+   div {
+    font-family: 'Lato', sans-serif;
+    background-image: url("../images/main.png");
+    height: 400px;
+    width: 100%;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.4rem;
+    span{
+      font-weight:300;
+      font-size:1.4rem;
+    }
+  }
+
+  p {
+    color: $light-blue;
+  text-align: center;
+  font-size: 2rem;
+  text-transform:  uppercase;
+  font-weight:800;
+  }
+}
+.mark{
+  margin-top:50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: $gray;
+}
