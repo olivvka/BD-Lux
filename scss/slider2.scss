@@ -68,13 +68,18 @@ section#slider2 span.slider-title {
 section#slider2 .more-slider {
   width: 20%;
   padding-left: 10px;
+  p{
+    font-size: 1vw;
+  margin-bottom: 10px;
+  }
+
 }
 
 section#slider2 .more-slider h4 {
   color: $light-blue;
   font-weight: 300;
   font-size: 2rem;
-  padding: 35px 0 25px;
+  padding:  10px 0px;
   margin-bottom: 0;
 }
 
@@ -114,7 +119,9 @@ section#slider2 .more-slider a.button:before {
   section#slider2 .more-slider {
     width: 100%;
     padding: 0;
-
+    p{
+      font-size: 2vw;
+    }
     .content {
       display: flex;
       flex-direction: column;
