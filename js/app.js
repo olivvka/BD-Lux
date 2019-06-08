@@ -1,6 +1,8 @@
 $(document)
   .ready(function() {
-
+    //lazy loading
+    $("img")
+      .unveil();
 
     //navigation
     $('#menu-icon')
