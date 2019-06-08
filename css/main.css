@@ -27,7 +27,7 @@ ol, ul, li {
   font-weight: bold;
   cursor: pointer;
   opacity: 1;
-  margin: 1em 0.4em; }
+  margin: 1em 0; }
   #menu-icon:hover {
     color: #B0C8E6;
     text-decoration: none;
@@ -453,6 +453,7 @@ div {
     color: #D9E1E8;
     line-height: 0; }
   .column img {
+    cursor: pointer;
     margin-top: 8px;
     vertical-align: middle;
     width: 100%; }
@@ -581,7 +582,8 @@ label {
 
 @media (max-width: 600px) {
   section.contactwrapp {
-    flex-direction: column; }
+    flex-direction: column;
+    margin-left: 1em; }
   div.form {
     width: 90%;
     padding: 20px 10px; }
