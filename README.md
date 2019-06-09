@@ -7,5 +7,5 @@ Project made during CodersLab course
 - JS/JQUERY
 
 work in progress
-# live prview 
+## live preview 
 https://bd-lux.netlify.com/
